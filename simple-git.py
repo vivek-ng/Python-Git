@@ -10,4 +10,5 @@ comm_length = len(sys.argv)
 # 	sys.exit()
 
 exec_options = sys.argv[1:]
+print(exec_options)
 subprocess.call(exec_options)
